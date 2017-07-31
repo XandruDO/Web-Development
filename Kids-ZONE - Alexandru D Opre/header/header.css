@@ -1,0 +1,33 @@
+header {
+    padding-top: 15px;
+    text-align: center;
+    width: 80%;
+    height: 131px;
+    margin: 0 auto;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+header img {
+    width: 40%;
+    height: 110px;
+}
+@media screen and (max-width: 1080px) {
+    header {
+        width: 100%;
+    }
+    header img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header {
+        width: 100%;
+    }
+    header img {
+        width: 100%;
+    }
+}

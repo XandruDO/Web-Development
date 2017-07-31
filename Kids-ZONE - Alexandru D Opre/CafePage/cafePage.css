@@ -1,0 +1,133 @@
+        #mainContent {
+            background: rgba(250, 255, 184, 0.7);
+            text-align: center;
+            margin: 0 auto;
+            top: 180px;
+            width: 60%;
+            position: relative;
+            z-index: 1;
+            min-height: 100%;
+            border: 1px solid rgb(250, 255, 184);
+        }
+        #mainContent ul {
+            background-color: rgba(105, 29, 0, 0);
+            border-radius: 20px;
+            padding: 10px;
+            border: 2px solid rgb(250, 255, 184);
+            margin: auto;
+            width: 70%;
+            box-shadow: 0 0 70px;
+            text-align: center;
+        }
+        #mainContent li {
+            display: inline-block;
+            list-style: none;
+            border-radius: 10px;
+            z-index: 10;
+            margin: 5px auto;
+            padding: 5px;
+        }
+        ul img:hover {
+            opacity: 0.85;
+            border-radius: 10px;
+        }
+        .timetable {
+            background-color: #792100;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 50px auto;
+            border: 2px solid rgb(250, 255, 184);
+            width: 50%;
+            box-shadow: 0 0 80px;
+        }
+        .timetable table {
+            text-align: center;
+            margin: 5px auto;
+            padding: 10px;
+            color: white;
+            font-size: 24px;
+            font-family: AR CENA, sans serif;
+        }
+        .timetable table th,
+        td {
+            padding: 20px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .timetable p {
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        #firstPageImage {
+            background-image: url("Images/background-kids.jpg");
+            background-repeat: repeat-y;
+            background-size: contain;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            min-width: 500px;
+            min-height: 100%;
+            height: 100%;
+            margin: 0 auto;
+            top: 160px;
+            left: 0;
+            right: 0;
+            z-index: -1;
+        }
+        #firstPageImage img {
+            width: 100%;
+            height: 100%;
+        }
+        .contactBTN {
+            background-color: #a02b00;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid white;
+            font-size: 20px;
+            margin: 20px;
+        }
+        .contactBTN:hover {
+            text-decoration: none;
+            background-color: white;
+            color: orangered;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid orangered;
+            font-size: 20px;
+        }
+        h1 span {
+            color: #892500;
+            font-size: 70px;
+        }
+        footer {
+            width: 100%;
+            z-index: 1000;
+            position: relative;
+            text-align: center;
+            padding: 10px;
+            color: #b10e00;
+            font-family: AR CENA, sans serif;
+            font-size: 22px;
+        }
+        @media screen and (max-width: 1368px) {
+            #mainContent {
+                margin-top: 50px;
+            }
+            #mainContent {
+                width: 75%;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            #mainContent {
+                width: 100%;
+            }
+            #presentCafe {
+                width: 100%;
+                height: 100%;
+            }
+            #firstPageImage {
+                width: 100%;
+            }
+        }

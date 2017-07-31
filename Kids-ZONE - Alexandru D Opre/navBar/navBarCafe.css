@@ -1,0 +1,68 @@
+.navbar.navbar-default {
+    background-color: rgb(250, 255, 184);
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    position: fixed;
+    z-index: 100;
+    top: 130px;
+    left: 0;
+    right: 0;
+}
+#collapseBTN {
+    background-color: #893000;
+}
+#collapseBTN:hover {
+    background-color: rgb(250, 255, 184);
+}
+.nav.navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.collapse.navbar-collapse {
+    text-align: center;
+    background-color: rgb(121, 5, 0);
+    border-radius: 10px;
+}
+.nav.navbar-nav li {
+    margin: 4px 10px 4px 10px;
+    font-family: AR CENA, sans-serif;
+    font-size: 23px;
+    font-weight: 400px;
+    padding: 0;
+    background-color: rgb(250, 255, 184);
+    border-radius: 5px;
+    border: 1px solid #ff4500;
+}
+.nav.navbar-nav li:hover {
+    background-color: rgb(92, 35, 0);
+    border: 1px solid rgb(250, 255, 184);
+}
+.nav.navbar-nav a {
+    padding: 15px 50px 15px 50px;
+    color: #b12900 !important;
+    font-weight: bolder;
+}
+.nav.navbar-nav a:hover {
+    color: rgb(250, 255, 184) !important;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar.navbar-default {
+        width: 100%;
+    }
+    .collapse.navbar-collapse {
+        width: 100;
+        
+    }
+    .nav.navbar-nav {
+        width: 100;
+        display: block;
+        
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kids-ZONE Indoor Activities">
+    <meta name="keywords" content="Children, Kids playground, Playground, Bouncing castle, Kart Racing, Kids, Coffee shop, Children Dance Classes, Children playground">
+    <meta name="author" content="Alexandru D. Opre">
+    <link rel="stylesheet" type="text/css" href="AboutPage/aboutPage.css">
+    <link rel="stylesheet" type="text/css" href="header/header.css">
+    <link rel="stylesheet" type="text/css" href="html&body.css">
+    <link rel="stylesheet" type="text/css" href="navBar/navBar.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <title>Kids-Zone About Us Page</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="Images/kidszone.png" alt="Images/imageNotWorking.png">
+        </header>
+
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle active" data-toggle="collapse" data-target="#myNavbar" id="collapseBTN">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ActivitiesPage.html">Activities</a></li>
+                    <li><a href="CafePage.html">Café</a></li>
+                    <li><a href="contactPage.html">Contact Us</a></li>
+                    <li><a href="AboutPage.html">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="img-responsive" id="firstPageImage">
+            <img src="Images/background-kids.jpg" alt="Images/imageNotWorking.png">
+        </div>
+
+        <div class="mainContent">
+            <div class="videoWrap">
+                <video id="bouncingSlide" controls>
+
+                    <source src="AboutPage/Video/bouncingSlides.mp4" type="video/mp4"> Your browser does not support this video.
+
+                    <script>
+                        var video = document.currentScript.parentElement; //selects the element it is a part of, which is <video>
+                        video.volume = 0.5;
+                    </script>
+
+                </video>
+            </div>
+
+            <p id="p1">
+
+                Ever since 1958 we've been catering to the needs of both parents and children by keeping the little ones happy whilst enjoying our multitude of activities and we continue to this day to improve our services and do our best so that both the parents and their children have a wonderful time with each visit! You can rest assured that our service is second to none and with all the years of experience we've learnt that we can never stop improving, innovating and stimulating your children's imaginations and happiness!
+
+            </p>
+
+            <p id="p2">
+
+                Ever since our inception, Kids-ZONE has been dedicated to the enjoyment, happiness and most importantly the <span style="font-weight: bold;">safety</span> of the children and their parents/legal custodians that visit us. We listen and learn from our mistakes as well as the multitude of suggestions parents send to us so don't hesitate and contact us with any and all inquiries!
+
+            </p>
+
+            <a class="contactBTN" href="contactPage.html">Contact Us</a>
+
+            <footer>
+
+                <div class="footer">
+                    Designer and Developer: Alexandru Daniel Opre - ©2016
+                </div>
+
+            </footer>
+        </div>
+    </div>
+</body>
+
+
+</html>
